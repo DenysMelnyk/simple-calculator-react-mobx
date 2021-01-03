@@ -1,0 +1,21 @@
+.OutputField {
+    height: 50px;
+}
+.OutputField input,
+.OutputField input:focus,
+.OutputField input:active {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ffffff;
+    color: #747474;
+    font-size: 16px;
+    background-color: #384047;
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+    padding: 0 10px;
+}
+.OutputField input::placeholder{
+    color: #ff7000;
+}
